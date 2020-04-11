@@ -1,0 +1,28 @@
+{
+    "persons" : [
+      { 
+        "personname" : "Leonard Cohen",
+        "useremail": "user@user.com",
+        "registrationdate": "Март 10, 2020",
+        "lastactivity": "Февраль 10, 2020",
+        "lastactions": "view_landing_course1",
+        "actions": "Как наладить отнош"
+      },
+      {
+        "personname" : "Leonard Cohen",
+        "useremail": "user@user.com",
+        "registrationdate": "Февраль 10, 2020",
+        "lastactivity": "Февраль 10, 2020",
+        "lastactions": "view_landing_course1",
+        "actions": "Как наладить отнош" 
+      },
+      { 
+        "personname" : "Leonard Cohen",
+        "useremail": "user@user.com",
+        "registrationdate": "Январь 10, 2020",
+        "lastactivity": "Февраль 10, 2020",
+        "lastactions": "view_landing_course1",
+        "actions": "Как наладить отнош"
+      }
+    ]
+  }

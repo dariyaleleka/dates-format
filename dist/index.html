@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Page</title>
+  <meta name="description" content="Page description" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+  <!-- svg sprite -->
+  <!-- //=include spriteSvg.svg -->
+  <!-- ========== -->
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-content">
+                <div class="header-content_items">
+                  <img src="assets/img/OJOWO.png" alt="">
+                </div>
+                <div class="header-content_items-soc">
+                    <div class="header-content_items-soc-button">
+                      <img src="assets/img/bell.png" alt="">
+                    </div>
+                    <div class="header-content_items-soc-name">
+                      <p>Артем <img src="assets/img/arrow.png" alt=""></p>
+                    </div>
+                    <div class="header-content_items-soc-bell">
+                      <a href="#"><img src="assets/img/glass.png" alt=""></a>
+                    </div>
+                    <div class="header-content_items-soc-lang">
+                      <a href="#">Ru<img src="assets/img/arrow.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- .header end -->
+    
+    <main class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center flex-column">
+            <div class="filter-container-main">
+            <div class="filter-container">
+                <div class="filter-container-main_filter">
+                  <span id="reportrange" ><img  class="flag" src="assets/img/cal.png" alt=""><span id="click" class="click"></span><img class="arrow" src="assets/img/arrow-1.png" alt=""></span>
+                  <span href="#"><img class="flag" src="assets/img/range.png" alt="">Фильтр<img class="arrow" src="assets/img/arrow-1.png" alt=""></span>
+                </div>
+                <div class="filter-container_add">
+                  <a href="#">Добавить контакты</a>
+                </div>
+            </div>
+            <div id="filter-container-results" class="filter-container-results">
+              <div id="result-button" class="result-button">
+                <p>2 мар - 15 мар 2020 г.</p>
+                <img id="cross" src="assets/img/cross.png" alt="">
+              </div>
+            </div>
+          </div>
+            <div class="container-rows">
+              <div class="container-rows_title">
+                <div class="container-rows_title-circle">
+                  <img src="assets/img/ellipse.png" alt="">
+                </div>
+                <div class="container-rows_main-content">
+                  <ul>
+                    <li>Пользователь</li>
+                    <li>Дата регистрации</li>
+                    <li>Последняя активность </li>
+                    <li>Последнее действие</li>
+                    <li>Продукт</li>
+                  </ul>
+                </div>
+                <div class="container-rows_show">
+                  <p>Отобразить 15</p>
+                  <img src="assets/img/arrow-1.png" alt="">
+                </div>
+              </div>
+             <div id="usersList"></div>
+            </div>
+        </div>
+      </div>
+    </main>
+    
+    <!-- .content end -->
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+           
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- .footer end -->
+    
+  </div>
+  <!-- .wrapper end -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+  <!-- Include Date Range Picker-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
